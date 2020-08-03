@@ -40,4 +40,4 @@
 ```
 
 效果：
-<img src="https://github.com/xiaofei-dev/ShadowView/blob/master/art/preview1.jpg" width="60%" height="60%">
+<img src="https://github.com/xiaofei-dev/ShadowView/blob/master/art/preview1.jpg" width="20%" height="20%">
