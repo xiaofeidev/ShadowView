@@ -1,4 +1,4 @@
-# ShadowView
+# ShadowView[ ![Download](https://api.bintray.com/packages/xiaofei00/xiaofei/ShadowView/images/download.svg) ](https://bintray.com/xiaofei00/xiaofei/ShadowView/_latestVersion)
 
 实现简单的 Android 原生阴影控件。
 
