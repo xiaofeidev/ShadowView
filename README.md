@@ -2,7 +2,7 @@
 
 实现简单的 Android 原生阴影控件。
 
-[预览图]
+<img src="https://github.com/xiaofei-dev/ShadowView/blob/master/art/preview.jpg" width="40%" height="40%">
 
 实现阴影效果的原理主要是在原 `View` 的底下绘制一个阴影(图层)。具体阴影的形状和效果需要客户端自己定义，且必须要由客户端自己定义出来。可定义属性包括阴影的形状，模糊半径，颜色，X 轴偏移量，Y 轴偏移量等。阴影的形状以一个圆角矩形或正圆形为主，注意阴影的形状不可太复杂，你只能将阴影定义成上图中那样简单规则的形状。
 
@@ -40,5 +40,4 @@
 ```
 
 效果：
-
-[图片]
+<img src="https://github.com/xiaofei-dev/ShadowView/blob/master/art/preview1.jpg" width="60%" height="60%">
