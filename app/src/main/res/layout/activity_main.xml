@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+        <com.github.xiaofeidev.shadow.ShadowImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/round_blue"
+            app:shadow_corner_radius="10dp"
+            app:shadow_blur_radius="10dp"
+            app:shadow_offset_x="4dp"
+            app:shadow_offset_y="4dp"
+            app:shadow_color="@android:color/black"/>
+
+        <com.github.xiaofeidev.shadow.ShadowImageView
+            android:id="@+id/img2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toEndOf="@id/img1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/round_red"
+            app:shadow_corner_radius="20dp"
+            app:shadow_blur_radius="20dp"
+            app:shadow_color="@android:color/black"/>
+
+        <com.github.xiaofeidev.shadow.ShadowImageView
+            android:id="@+id/img3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/circle_green"
+            app:layout_constraintTop_toBottomOf="@id/img2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:shadow_corner_radius="100dp"
+            app:shadow_blur_radius="20dp"
+            app:shadow_offset_x="5dp"
+            app:shadow_offset_y="5dp"
+            app:shadow_color="@android:color/holo_blue_dark"/>
+
+        <com.github.xiaofeidev.shadow.ShadowImageView
+            android:id="@+id/img4"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/circle_pink"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img3"/>
+
+        <com.github.xiaofeidev.shadow.ShadowFrameLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img4"
+            app:shadow_blur_radius="20dp"
+            app:shadow_color="@android:color/black">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/ic_profile"/>
+        </com.github.xiaofeidev.shadow.ShadowFrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="shadow_corner_radius" format="dimension"/>
+    <attr name="shadow_corner_top_left_radius" format="dimension" />
+    <attr name="shadow_corner_top_right_radius" format="dimension" />
+    <attr name="shadow_corner_bottom_left_radius" format="dimension" />
+    <attr name="shadow_corner_bottom_right_radius" format="dimension" />
+
+    <!--阴影模糊半径-->
+    <attr name="shadow_blur_radius" format="dimension" />
+    <!--阴影 x 轴偏移距离-->
+    <attr name="shadow_offset_x" format="dimension" />
+    <!--阴影 y 轴偏移距离-->
+    <attr name="shadow_offset_y" format="dimension" />
+    <!--阴影颜色-->
+    <attr name="shadow_color" format="color|reference" />
+
+    <declare-styleable name="ShadowImageView">
+        <attr name="shadow_corner_radius"/>
+        <attr name="shadow_corner_top_left_radius"/>
+        <attr name="shadow_corner_top_right_radius"/>
+        <attr name="shadow_corner_bottom_left_radius"/>
+        <attr name="shadow_corner_bottom_right_radius"/>
+
+        <attr name="shadow_blur_radius"/>
+        <attr name="shadow_offset_x"/>
+        <attr name="shadow_offset_y"/>
+        <attr name="shadow_color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowFrameLayout">
+        <attr name="shadow_corner_radius"/>
+        <attr name="shadow_corner_top_left_radius"/>
+        <attr name="shadow_corner_top_right_radius"/>
+        <attr name="shadow_corner_bottom_left_radius"/>
+        <attr name="shadow_corner_bottom_right_radius"/>
+
+        <attr name="shadow_blur_radius"/>
+        <attr name="shadow_offset_x"/>
+        <attr name="shadow_offset_y"/>
+        <attr name="shadow_color"/>
+    </declare-styleable>
+</resources>
