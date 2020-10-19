@@ -34,4 +34,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation project(":lib_shadow")
+    implementation 'com.github.xiaofeidev:round:1.1.1'
 }

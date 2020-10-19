@@ -53,6 +53,7 @@
             app:shadow_offset_y="5dp"
             app:shadow_color="@android:color/holo_blue_dark"/>
 
+        <!--下面这个 View 的阴影效果从代码中设置，详见 MainActivity 中的代码-->
         <com.github.xiaofeidev.shadow.ShadowImageView
             android:id="@+id/img4"
             android:layout_width="250dp"
@@ -68,14 +69,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/img4"
+            app:shadow_corner_radius="10dp"
             app:shadow_blur_radius="20dp"
             app:shadow_color="@android:color/black">
-            <androidx.appcompat.widget.AppCompatImageView
+            <com.github.xiaofeidev.round.RoundImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/ic_profile"/>
+                app:srcCompat="@drawable/ic_profile"
+                app:rd_radius="10dp"
+                app:rd_stroke_mode="overlay"/>
         </com.github.xiaofeidev.shadow.ShadowFrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
