@@ -1,11 +1,11 @@
-# ShadowView[ ![Download](https://api.bintray.com/packages/xiaofei00/xiaofei/ShadowView/images/download.svg) ](https://bintray.com/xiaofei00/xiaofei/ShadowView/_latestVersion)
+# ShadowView
 
 实现简单的 Android 原生阴影控件。
 
 `Gradle` 依赖：
 
 ```
-implementation 'com.github.xiaofeidev:shadow:latest_version'
+implementation 'com.github.xiaofeidev:shadow:1.0.0'
 ```
 ## 界面预览：
 
